@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="866.0" prefWidth="899.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.controller.ConfigController">
+    <ComboBox fx:id="comboBox" layoutX="56.0" layoutY="30.0" onAction="#comboBoxChanged" prefHeight="37.0" prefWidth="112.0" promptText="Choose" style="-fx-background-color: white; -fx-border-width: 0.2px; -fx-border-style: solid;" />
+   <Label fx:id="choose" alignment="CENTER" contentDisplay="CENTER" layoutX="157.0" layoutY="218.0" prefHeight="45.0" prefWidth="387.0" text="Choose the data you want to config from dropdown Combo Box" textAlignment="CENTER" />
+    <AnchorPane fx:id="anchorConfig" layoutX="45.0" layoutY="80.0" prefHeight="438.0" prefWidth="315.0" />
+   <AnchorPane fx:id="anchorDataConfig" layoutX="45.0" layoutY="534.0" prefHeight="349.0" prefWidth="725.0" />
+</AnchorPane>
